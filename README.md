@@ -1,11 +1,5 @@
 # Insurance Charges Prediction
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.5-orange)](https://scikit-learn.org/)
-
----
-
 ## 🚀 Project Overview
 
 **Insurance Charges Prediction** is a **Machine Learning project** designed to predict individual medical insurance charges based on personal and lifestyle factors like **age, BMI, gender, smoking habits, number of children, and region**.  
@@ -36,11 +30,7 @@ The dataset contains the following features:
 - Countplots for categorical features: **sex, smoker, children**
 - Boxplots to detect **outliers**
 - Correlation heatmap to examine **relationships between features**
-
-**Example Correlation Heatmap:**
-
-![Heatmap](screenshots/correlation_heatmap.png)
-
+ 
 ---
 
 ## 🧹 Data Cleaning & Preprocessing
@@ -65,7 +55,6 @@ The dataset contains the following features:
 ```
 age, is_female, bmi, children, is_smoker, region_southwest, bmi_category_Obese
 ```
-
 
 ---
 
@@ -92,10 +81,9 @@ You can use the **Streamlit app** to get personalized insurance predictions:
 
 ```bash
 streamlit run app.py
-
-
-python
 ```
+python
+```bash
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 
@@ -123,8 +111,6 @@ SciPy
 
 Joblib
 
-Sreamlit
-
 💾 Repository Structure
 ```
 insurance-charges-prediction/
@@ -134,8 +120,6 @@ insurance-charges-prediction/
 ├── LinearRegression.pkl                # Trained Linear Regression model
 ├── scaler.pkl                          # StandardScaler for numerical features
 ├── columns.pkl                         # Feature columns
-├── screenshots/                        # Folder for plots/screenshots
-│   └── correlation_heatmap.png
 ├── Insurance_Charges_Prediction.ipynb  # Jupyter Notebook with full workflow
 └── README.md
 ```
@@ -170,8 +154,14 @@ print("Predicted Insurance Charges:", prediction)
 ```
 
 ### 📊 Screenshots
+<img width="619" height="734" alt="image" src="https://github.com/user-attachments/assets/66d85f26-dde9-4487-aeeb-a33e4762d3e4" />
 
- <img width="619" height="734" alt="image" src="https://github.com/user-attachments/assets/cf5f09af-cd4d-4b73-a39f-ca0273e32f45" />
+<img width="624" height="882" alt="image" src="https://github.com/user-attachments/assets/d3bb5e50-bab9-4d1e-a164-3f23a34c3a76" />
 
- <img width="624" height="882" alt="image" src="https://github.com/user-attachments/assets/65d871df-fda0-4aad-be51-f385bad31ed0" />
 
+## 📢 Connect with Me
+
+If you find this project interesting, ⭐ the repository and connect with me on LinkedIn!
+
+#MachineLearning #DataScience #Python #LinearRegression #EDA #FeatureEngineering #OpenSource #LearningInPublic
+```
